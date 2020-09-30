@@ -2,14 +2,32 @@
   "name": "hitrust_exam",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "5.13.1",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
+    "popper.js": "^1.12.9",
+    "bootstrap": "4.5.0",
+    "chart.js": "2.9.3",
+    "datatables.net-bs4": "1.10.21",
+    "jquery": "3.5.1",
+    "jquery.easing": "^1.4.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.1",
+    "gulp-clean-css": "4.3.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
   }
 }
